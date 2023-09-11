@@ -1,5 +1,5 @@
 
-body {
+.bodyMenup {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -10,7 +10,7 @@ body {
     display: flex;
 }
 
-.content {
+.contentMenup {
     background-color: #1c357a; /* Azul bem escuro */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
@@ -19,21 +19,21 @@ body {
     flex-grow: 1;
 }
 
-h1 {
+.h1MenuP {
     margin-top: 0;
     color: white; /* Texto do h1 em branco */
 }
 
-p {
+.pMenuP {
     font-size: 1.2em; /* Aumentando o tamanho da fonte do parágrafo */
 }
 
-.menu {
+.menuMenuP {
     list-style: none;
     padding: 0;
 }
 
-.menu-button {
+.menu-buttonMenuP {
     background-color: #3498db;
     color: white;
     border: none;
@@ -46,6 +46,6 @@ p {
     width: 50%; /* Botões ocupam metade da largura da página */
 }
 
-.menu-button:hover {
+.menuMenuP-button:hover {
     background-color: #2980b9;
 }

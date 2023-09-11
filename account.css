@@ -1,4 +1,4 @@
-        body {
+        .bodyCreate {
             margin: 30;
             padding: 40;
             font-family: Arial, sans-serif;
@@ -9,7 +9,7 @@
             align-items: center;
         }
 
-        .container {
+        .containerCreate {
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -17,7 +17,7 @@
             text-align: center;
         }
 
-        .container h2 {
+        .containerCreate h2 {
             margin: 0 0 10px; /* Margin ajustado */
             padding: 15px 0; /* Padding ajustado */
             background-color: #1c357a; /* Azul mais forte */
@@ -25,11 +25,11 @@
             border-radius: 8px 8px 0 0; /* Borda superior arredondada */
         }
 
-        .form-group {
+        .form-groupCreate {
             margin-bottom: 15px; /* Espaçamento ajustado */
         }
 
-        .form-group label {
+        .form-groupCreate label {
             display: block;
             text-align: left;
             margin-bottom: 5px;
@@ -37,14 +37,14 @@
             color: #333;
         }
 
-        .form-group input {
+        .form-groupCreate input {
             width: 80%;
             padding: 8px; /* Tamanho ajustado */
             border: 1px solid #1c357a; /* Azul mais forte */
             border-radius: 0 0 4px 4px; /* Borda inferior arredondada */
         }
 
-        .btn {
+        .btnCreate {
             background-color: #1c357a; /* Azul mais forte */
             color: #fff;
             padding: 10px 20px;
