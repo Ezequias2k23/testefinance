@@ -1,0 +1,120 @@
+.body1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    min-height: 100vh;
+}
+
+.img1 {
+    margin-top: 95px; 
+    margin-bottom: 35px;
+    border: 12px solid white;
+}
+
+.container {
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.h21 {
+    text-align: center;
+    color: #333;
+}
+
+.input1[type="email"],
+.input1[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.new-account1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.A1 {
+    color: #007bff;
+    text-decoration: none;
+}
+.body2 {
+    margin: 30px;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1c357a, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 23%; /* Tamanho ajustado */
+    text-align: center;
+}
+
+.container2 h2 {
+    margin: 0 0 10px; /* Margin ajustado */
+    padding: 15px 0; /* Padding ajustado */
+    background-color: #1c357a; /* Azul mais forte */
+    color: #fff;
+    border-radius: 8px 8px 0 0; /* Borda superior arredondada */
+}
+
+.form-group2 {
+    margin-bottom: 15px; /* Espaçamento ajustado */
+}
+
+.form-group2 label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 13px;
+    color: #333;
+}
+
+.form-group2 input {
+    width: 80%;
+    padding: 8px; /* Tamanho ajustado */
+    border: 1px solid #1c357a; /* Azul mais forte */
+    border-radius: 0 0 4px 4px; /* Borda inferior arredondada */
+}
+
+.btn2 {
+    background-color: #1c357a; /* Azul mais forte */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
