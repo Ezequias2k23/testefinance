@@ -1,4 +1,4 @@
-body {
+.body1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
 }
 
-img {
+.img1 {
     margin-top: 95px; 
     margin-bottom: 35px;
     border: 12px solid white;
@@ -22,12 +22,13 @@ img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
+.h21 {
     text-align: center;
     color: #333;
 }
 
-input[type="email"], input[type="password"] {
+.input1[type="email"],
+.input1[type="password"] {
     width: 95%;
     padding: 10px;
     margin-bottom: 10px;
@@ -35,7 +36,7 @@ input[type="email"], input[type="password"] {
     border-radius: 5px;
 }
 
-button {
+.button1 {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -45,21 +46,21 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.button1:hover {
     background-color: #0056b3;
 }
 
-.forgot-password {
+.forgot-password1 {
     text-align: center;
     margin-top: 10px;
 }
 
-.new-account {
+.new-account1 {
     text-align: center;
     margin-top: 10px;
 }
 
-a {
+.A1 {
     color: #007bff;
     text-decoration: none;
 }
