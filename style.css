@@ -118,43 +118,10 @@
     border-radius: 4px;
     cursor: pointer;
 }
-
-.body3 {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container3 {
-    width: 35%;
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.h13 {
-    margin-top: 0;
-}
-
 label {
     display: block;
     margin-bottom: 10px;
 }
-
-.input3[type="email"] {
-    width: 80%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
 .button3 {
     background-color: #007bff;
     color: #fff;
@@ -169,6 +136,14 @@ label {
 }
 
 .body3 {
+    
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
     display: flex;
@@ -185,6 +160,12 @@ label {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 35%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .h13 {
@@ -195,15 +176,14 @@ label {
     display: block;
     margin-bottom: 10px;
 }
-
-.input3 [type="email"] {
-    width: 100%; /* Defina a largura desejada, como 100% para ocupar todo o contêiner */
+.input3[type="email"] {
+    width: 80%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
+.input3 [type="email"] {
 .button3 {
     background-color: #007bff;
     color: #fff;
@@ -212,7 +192,7 @@ label {
     border-radius: 4px;
     cursor: pointer;
 }
-
+}
 .button3:hover {
     background-color: #0056b3;
 }
