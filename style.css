@@ -196,8 +196,8 @@ label {
     margin-bottom: 10px;
 }
 
-.input3[type="email"] {
-    width: 80%;
+.input3 [type="email"] {
+    width: 100%; /* Defina a largura desejada, como 100% para ocupar todo o contêiner */
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
