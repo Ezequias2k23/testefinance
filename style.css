@@ -111,6 +111,7 @@
 }
 
 .btn2 {
+    margin-top: 16px;
     background-color: #1c357a; /* Azul mais forte */
     color: #fff;
     padding: 10px 20px;
@@ -246,4 +247,37 @@ label {
 
 .menu-button4:hover {
     background-color: #2980b9;
+}
+ /* Estilos para centralizar os elementos na página */
+ .mortodepreguiça{
+    font-size: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .body5{
+    overflow: hidden;
+    background: linear-gradient(to bottom, #2a4dad, #3254b3, #ffffff);
+ }
+ .ajuda5 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 3px;
+    margin: 0;
+}/* Estilos para o botão verde com sombreado */
+.green-button5 {
+    background-color: #4CAF50; /* Cor verde */
+    border: 2px solid #45a049; /* Borda com sombreado fraco */
+    color: white; /* Texto branco */
+    padding: 20px 40px; /* Espaçamento interno aumentado */
+    margin-bottom: 50px; /* Distância entre os elementos */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px; /* Cantos arredondados */
 }
