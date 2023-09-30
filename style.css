@@ -283,6 +283,7 @@ label {
     font-size: 20px;
     border-radius: 4px; /* Cantos arredondados */
 }
+
 .h1config{
     font-style: initial;
     font-size: 40px;
@@ -358,4 +359,37 @@ label {
     margin: 0;
     background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
     min-height: 100vh;
+}
+.despesas_body1 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    min-height: 100vh;
+}
+.button {
+    flex-direction: column;
+    align-items: center;
+    background-color: fff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0; /* Aumentando a distância entre os botões */
+    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%; /* Botões ocupam metade da largura da página */  
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
 }
