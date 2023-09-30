@@ -370,6 +370,17 @@ label {
     background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
     min-height: 100vh;
 }
+.despesash1{
+    flex-direction: column;
+    align-items: center;
+    font-size: 65px;
+}
+.despesash3{
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+}
 .button {
     flex-direction: column;
     align-items: center;
