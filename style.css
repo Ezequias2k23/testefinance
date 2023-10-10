@@ -384,6 +384,7 @@ label {
     font-size: 25px;
     font-style: italic;
 }
+
 .button {
     flex-direction: column;
     align-items: center;
@@ -406,4 +407,75 @@ label {
   background-color: #3e8e41;
   box-shadow: 0 3px #666;
   transform: translateY(4px);
+}
+
+/* Estilos para o corpo da página */
+.bodyrelatorio {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    min-height: 100vh;
+}
+
+/* Estilos para o cabeçalho H1 do relatório */
+.relatorioh1 {
+    text-align: center; /* Centralizar o texto */
+    font-size: 65px;
+}
+
+/* Estilos para o cabeçalho H3 do relatório */
+.relatorioh3 {
+    text-align: center; /* Centralizar o texto */
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* Estilos para os botões */
+.buttonr {
+    text-align: center; /* Centralizar o texto no botão */
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #000; /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0; /* Aumentando a distância entre os botões */
+    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    width: 100%; /* Botões ocupam toda a largura disponível */
+    display: block;
+    text-decoration: none;
+}
+
+.buttonr:hover {
+    background-color: #3e8e41; /* Cor de fundo quando hover */
+    color: #fff; /* Cor do texto quando hover */
+}
+
+.buttonr:active {
+    background-color: #3e8e41; /* Cor de fundo quando pressionado */
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+/* Estilos para a área do relatório */
+.day {
+    padding: 10px;
+    margin: 10px;
+    width: calc(50% - 20px); /* Ajuste para ocupar a largura total */
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+}
+
+.day textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding-block: 45px;
+
+
 }
