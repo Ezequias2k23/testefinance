@@ -199,19 +199,19 @@ label {
 .button3:hover {
     background-color: #0056b3;
 }
-
 .body4 {
-    background-color:#1c357a;
-    margin: 0;
-    padding: 0;
+    background-color: #ffffff;
+    height: 100vh;
+    margin: 20;
     font-family: Arial, sans-serif;
     height: 100vh;
-    margin: 0;
     display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    min-height: 100vh;
 }
 
 .content4 {
-    background-color: #1c357a; /* Azul bem escuro */
+    background-color: #ffffff;
     margin-left: 350px;
     border-radius: 10px;
     padding: 20px;
@@ -222,14 +222,13 @@ label {
 .h14 {
     margin-top: 10px;
     margin-right: 350px;
-    margin-top: 0;
-    color: white; /* Texto do h1 em branco */
+    color: rgb(0, 0, 0);
 }
 
 .p4 {
     margin-top: 15px;
     margin-right: 350px;
-    font-size: 1.2em; /* Aumentando o tamanho da fonte do parágrafo */
+    font-size: 1.2em;
 }
 
 .menu4 {
@@ -242,17 +241,18 @@ label {
     color: white;
     border: none;
     border-radius: 5px;
-    margin: 20px 0; /* Aumentando a distância entre os botões */
-    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    margin: 20px 0;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: block;
-    width: 50%; /* Botões ocupam metade da largura da página */
+    width: 50%;
 }
 
 .menu-button4:hover {
     background-color: #2980b9;
 }
+
 .mortodepreguiça{
     font-size: 75px;
     display: flex;
