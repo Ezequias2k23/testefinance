@@ -200,15 +200,12 @@ label {
     background-color: #0056b3;
 }
 .body4 {
-<<<<<<< HEAD
     background: linear-gradient(to bottom, #2748a3, #3658b6, #ffffff);
     margin: 0;
     padding: 0;
-=======
     background-color: #ffffff;
     height: 100vh;
     margin: 20;
->>>>>>> fab92607eafddc8d91519968c5dbc61ed25e1c62
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
@@ -217,13 +214,11 @@ label {
 }
 
 .content4 {
-<<<<<<< HEAD
     margin-top: 15px;
     margin-left: 370px;
-=======
+
     background-color: #ffffff;
     margin-left: 350px;
->>>>>>> fab92607eafddc8d91519968c5dbc61ed25e1c62
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -234,14 +229,11 @@ label {
     font-style: italic;
     font-size: 30px;
     margin-top: 10px;
-<<<<<<< HEAD
     margin-right: 380px;
     margin-top: 0;
     color: white; /* Texto do h1 em branco */
-=======
     margin-right: 350px;
     color: rgb(0, 0, 0);
->>>>>>> fab92607eafddc8d91519968c5dbc61ed25e1c62
 }
 
 .p4 {
