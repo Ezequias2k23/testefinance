@@ -201,7 +201,7 @@ label {
 }
 
 .body4 {
-    background-color:#1c357a;
+    background: linear-gradient(to bottom, #2748a3, #3658b6, #ffffff);
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -211,8 +211,8 @@ label {
 }
 
 .content4 {
-    background-color: #1c357a; /* Azul bem escuro */
-    margin-left: 350px;
+    margin-top: 15px;
+    margin-left: 370px;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -220,16 +220,20 @@ label {
 }
 
 .h14 {
+    font-style: italic;
+    font-size: 30px;
     margin-top: 10px;
-    margin-right: 350px;
+    margin-right: 380px;
     margin-top: 0;
     color: white; /* Texto do h1 em branco */
 }
 
 .p4 {
+    
+    font-style: italic;
     margin-top: 15px;
-    margin-right: 350px;
-    font-size: 1.2em; /* Aumentando o tamanho da fonte do parágrafo */
+    margin-right: 380px;
+    font-size: 25px; /* Aumentando o tamanho da fonte do parágrafo */
 }
 
 .menu4 {
@@ -238,7 +242,7 @@ label {
 }
 
 .menu-button4 {
-    background-color: #3498db;
+    background-color: #19208b;
     color: white;
     border: none;
     border-radius: 5px;
@@ -251,7 +255,7 @@ label {
 }
 
 .menu-button4:hover {
-    background-color: #2980b9;
+    background-color: #283097;
 }
 .mortodepreguiça{
     font-size: 75px;
@@ -272,7 +276,7 @@ label {
     height: 80vh;
     margin-top: 3px;
     margin: 0;
-}/* Estilos para o botão verde com sombreado */
+}
 
 .green-button5 {
     background-color: #4CAF50; /* Cor verde */
@@ -293,40 +297,56 @@ label {
     color: #000000;
 }
 #languageButton{
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Aumentando a distância entre os botões */
+    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 20%; /* Botões ocupam metade da largura da página */
     font-style: oblique;
     font-size: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #19208b;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 15px;
+    margin: 20px;
 }
 #notificationButton{
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Aumentando a distância entre os botões */
+    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 20%; /* Botões ocupam metade da largura da página */
     font-style: oblique;
     font-size: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #19208b;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 15px;
+    margin: 20px;
 }
 #syncButton{
     font-style: oblique;
     font-size: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #19208b;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 15px;
+    margin: 20px;
 }
 
 .botaoconifg{
@@ -339,7 +359,7 @@ label {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    margin: 15px;
+    margin: 20px;
 }
 .bodyconfig{
     font-style: initial;
@@ -347,13 +367,11 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    margin: 20;
+    margin: 20px;
     background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
     min-height: 100vh;
 }
 .bodyconfig.containerconfig{
-    margin-top: 50%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
