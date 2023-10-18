@@ -199,20 +199,31 @@ label {
 .button3:hover {
     background-color: #0056b3;
 }
-
 .body4 {
+<<<<<<< HEAD
     background: linear-gradient(to bottom, #2748a3, #3658b6, #ffffff);
     margin: 0;
     padding: 0;
+=======
+    background-color: #ffffff;
+    height: 100vh;
+    margin: 20;
+>>>>>>> fab92607eafddc8d91519968c5dbc61ed25e1c62
     font-family: Arial, sans-serif;
     height: 100vh;
-    margin: 0;
     display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    min-height: 100vh;
 }
 
 .content4 {
+<<<<<<< HEAD
     margin-top: 15px;
     margin-left: 370px;
+=======
+    background-color: #ffffff;
+    margin-left: 350px;
+>>>>>>> fab92607eafddc8d91519968c5dbc61ed25e1c62
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -223,17 +234,27 @@ label {
     font-style: italic;
     font-size: 30px;
     margin-top: 10px;
+<<<<<<< HEAD
     margin-right: 380px;
     margin-top: 0;
     color: white; /* Texto do h1 em branco */
+=======
+    margin-right: 350px;
+    color: rgb(0, 0, 0);
+>>>>>>> fab92607eafddc8d91519968c5dbc61ed25e1c62
 }
 
 .p4 {
     
     font-style: italic;
     margin-top: 15px;
+<<<<<<< HEAD
     margin-right: 380px;
     font-size: 25px; /* Aumentando o tamanho da fonte do parágrafo */
+=======
+    margin-right: 350px;
+    font-size: 1.2em;
+>>>>>>> fab92607eafddc8d91519968c5dbc61ed25e1c62
 }
 
 .menu4 {
@@ -246,17 +267,18 @@ label {
     color: white;
     border: none;
     border-radius: 5px;
-    margin: 20px 0; /* Aumentando a distância entre os botões */
-    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    margin: 20px 0;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: block;
-    width: 50%; /* Botões ocupam metade da largura da página */
+    width: 50%;
 }
 
 .menu-button4:hover {
     background-color: #283097;
 }
+
 .mortodepreguiça{
     font-size: 75px;
     display: flex;
