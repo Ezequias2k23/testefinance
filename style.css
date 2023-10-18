@@ -203,9 +203,6 @@ label {
     background: linear-gradient(to bottom, #2748a3, #3658b6, #ffffff);
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
-    height: 100vh;
-    margin: 20;
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
@@ -216,9 +213,6 @@ label {
 .content4 {
     margin-top: 15px;
     margin-left: 370px;
-
-    background-color: #ffffff;
-    margin-left: 350px;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -232,21 +226,14 @@ label {
     margin-right: 380px;
     margin-top: 0;
     color: white; /* Texto do h1 em branco */
-    margin-right: 350px;
-    color: rgb(0, 0, 0);
 }
 
 .p4 {
     
     font-style: italic;
     margin-top: 15px;
-<<<<<<< HEAD
     margin-right: 380px;
     font-size: 25px; /* Aumentando o tamanho da fonte do parágrafo */
-=======
-    margin-right: 350px;
-    font-size: 1.2em;
->>>>>>> fab92607eafddc8d91519968c5dbc61ed25e1c62
 }
 
 .menu4 {
