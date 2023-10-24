@@ -189,7 +189,7 @@ label {
 .input3 [type="email"] {
 .button3 {
     background-color: #007bff;
-    color:#fff;
+    color:#000000;
     border:none;
     padding:10px 20px;
     border-radius:4px;
@@ -243,7 +243,7 @@ label {
 
 .menu-button4 {
     background-color: #19208b;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     margin: 20px 0;
@@ -295,7 +295,7 @@ label {
 .h1config{
     font-style: initial;
     font-size: 40px;
-    color: #000000;
+    color: fff;
 }
 #languageButton{
     border: none;
@@ -382,103 +382,71 @@ label {
     background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
     min-height: 100vh;
 }
+/* Reset some default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles for your page */
 .despesas_body1 {
-    overflow: hidden;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    font-family: Arial, sans-serif;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
     min-height: 100vh;
 }
-.despesash1{
-    flex-direction: column;
-    align-items: center;
+
+/* Header styles */
+.despesash1 {
     font-size: 65px;
-}
-.despesash3{
-    flex-direction: column;
-    align-items: center;
-    font-size: 25px;
-    font-style: italic;
+    color:white;
 }
 
-.button {
-    flex-direction: column;
-    align-items: center;
-    background-color: fff;
-    color: #000000;
+.despesash3 {
+    font-size: 25px;
+    font-style: italic;
+    color:white;
+}
+
+/* Container for buttons */
+.containerdespesas {
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    width: 40%;
+}
+
+/* Button styles */
+.button, .buttonr {
+    background-color: #fff;
+    color: #000;
     border: none;
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
-    margin: 20px 0; /* Aumentando a distância entre os botões */
-    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    margin: 20px 0;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: block;
-    width: 100%; /* Botões ocupam metade da largura da página */  
-}
-.button:hover {background-color: #3e8e41}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 3px #666;
-  transform: translateY(4px);
+    width: 100%;
 }
 
-/* Estilos para o corpo da página */
-.bodyrelatorio {
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
-    min-height: 100vh;
+.button:hover, .buttonr:hover {
+    background-color: #3e8e41;
+    color: #fff;
 }
 
-/* Estilos para o cabeçalho H1 do relatório */
-.relatorioh1 {
-    text-align: center; /* Centralizar o texto */
-    font-size: 65px;
-}
-
-/* Estilos para o cabeçalho H3 do relatório */
-.relatorioh3 {
-    text-align: center; /* Centralizar o texto */
-    font-size: 25px;
-    font-style: italic;
-}
-
-/* Estilos para os botões */
-.buttonr {
-    text-align: center; /* Centralizar o texto no botão */
-    background-color: #fff; /* Cor de fundo do botão */
-    color: #000; /* Cor do texto */
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin: 20px 0; /* Aumentando a distância entre os botões */
-    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
-    width: 100%; /* Botões ocupam toda a largura disponível */
-    display: block;
-    text-decoration: none;
-}
-
-.buttonr:hover {
-    background-color: #3e8e41; /* Cor de fundo quando hover */
-    color: #fff; /* Cor do texto quando hover */
-}
-
-.buttonr:active {
-    background-color: #3e8e41; /* Cor de fundo quando pressionado */
+.button:active, .buttonr:active {
+    background-color: #3e8e41;
     box-shadow: 0 3px #666;
     transform: translateY(4px);
 }
+
 
 /* Estilos para a área do relatório */
 .day {
@@ -497,4 +465,71 @@ label {
     padding-block: 45px;
 
 
+}
+
+.hisdespesas_body1 {
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.hisdespesash1 {
+    font-size: 65px;
+    color:white;
+}
+
+.hisdespesash3 {
+    font-size: 25px;
+    font-style: italic;
+    color:white;
+}
+
+/* Container for buttons */
+.containerhisdespesas {
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    width: 40%;
+}
+
+/* Button styles */
+.button, .buttonr {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.button:hover, .buttonr:hover {
+    background-color: #3e8e41;
+    color: #fff;
+}
+
+.button:active, .buttonr:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.img2 {
+    margin-top: 95px; 
+    margin-bottom: 35px;
+}
+.img3 {
+    margin-top: 95px; 
+    margin-bottom: 35px;
 }
