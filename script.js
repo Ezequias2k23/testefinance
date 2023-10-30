@@ -31,3 +31,17 @@ const languageButton = document.getElementById("languageButton");
             alert("Contas sincronizadas com sucesso!");
         });
         //DAQUI PRA CIMA É APENAS CONFIGURAÇÕES DE REDIRECIONAMENTO RELACIONADO À TELA DE CONFIGURAÇÕES IDENTIFICADA COMO "config.html"
+        function checkFields() {
+            var inputs = document.querySelectorAll('input');
+            var filled = true;
+            inputs.forEach(function(input) {
+                if (input.value === '') {
+                    filled = false;
+                }
+            });
+            if (filled) {
+                window.location.href = 'viewcontas.html';
+            } else {
+                alert('Por favor, preencha todos os campos obrigatórios.');
+            }
+        }
